@@ -9,23 +9,27 @@ namespace ConsoleApplication1
             get { return _boardStatus; }
         }
 
-        private char[,] _cells;
+        private List<List<char>> _cells = new List<List<char>>()
+                                              {
+                                                  new List<char>(){'*','*','*','*','*','*','*','*',},
+                                                  new List<char>(){'*','*','*','*','*','*','*','*',},
+                                                  new List<char>(){'*','*','*','*','*','*','*','*',},
+                                                  new List<char>(){'*','*','*','*','*','*','*','*',},
+                                                  new List<char>(){'*','*','*','*','*','*','*','*',},
+                                                  new List<char>(){'*','*','*','*','*','*','*','*',},
+                                                  new List<char>(){'*','*','*','*','*','*','*','*',},
+                                                  new List<char>(){'*','*','*','*','*','*','*','*',},
+                                              };
+
         private string _boardStatus = string.Empty;
 
-        public Board(int boardSize)
+        public Board()
         {
-            _cells = new char[boardSize,boardSize];
-            for (int i = 0; i < boardSize; i++)
-            {
-                for (int j = 0; j < boardSize; j++)
-                {
-                    _cells[i,j] ='*';
-                    _boardStatus += "*";
-                }
-                _boardStatus += "\n";
-            }
+            _cells.ForEach(row =>
+                               {
+                                   row.ForEach(cell => _boardStatus += cell);
+                                   _boardStatus += "\n";
+                               });
         }
-
-
     }
 }
