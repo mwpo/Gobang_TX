@@ -1,4 +1,4 @@
-﻿using ConsoleApplication1;
+﻿using GoBang;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace GoBangTest

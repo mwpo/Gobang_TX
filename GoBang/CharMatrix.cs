@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 
-namespace ConsoleApplication1
+namespace GoBang
 {
     public class CharMatrix : IEnumerable<List<char>>
     {

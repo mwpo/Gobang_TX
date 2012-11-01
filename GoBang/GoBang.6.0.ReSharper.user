@@ -1,0 +1,125 @@
+<Configuration>
+  <UnitTestSessions>
+    <Session>
+      <Name>Session #1</Name>
+      <Elements>
+        <UnitTestElement Provider="MSTest" Id="GoBangTest.GoBangTest" type="MsTestTestClassElement" TypeName="GoBangTest.GoBangTest" Project="3639F4BB-54EC-48BB-9DB1-A5D2842BB44E" />
+        <UnitTestElement Provider="MSTest" Id="GoBangTest.GoBangTest.should_print_empty_chess_board_given_initial_board" ParentId="GoBangTest.GoBangTest" type="MsTestTestMethodElement" MethodName="should_print_empty_chess_board_given_initial_board" Project="3639F4BB-54EC-48BB-9DB1-A5D2842BB44E" />
+      </Elements>
+    </Session>
+  </UnitTestSessions>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="84102336-87CE-4A7E-93A5-D875EE122BB9/f:Board.cs" caret="10" fromTop="0" />
+      <File id="84102336-87CE-4A7E-93A5-D875EE122BB9/f:ExtensionMethod.cs" caret="62" fromTop="3" />
+      <File id="84102336-87CE-4A7E-93A5-D875EE122BB9/f:Program.cs" caret="81" fromTop="3" />
+      <File id="3639F4BB-54EC-48BB-9DB1-A5D2842BB44E/f:GoBangTest.cs" caret="8" fromTop="0" />
+      <File id="84102336-87CE-4A7E-93A5-D875EE122BB9/f:CharMatrix.cs" caret="83" fromTop="4" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="84102336-87CE-4A7E-93A5-D875EE122BB9/f:Board.cs" caret="360" fromTop="15" />
+      <File id="84102336-87CE-4A7E-93A5-D875EE122BB9/f:Board.cs" caret="360" fromTop="27" />
+      <File id="84102336-87CE-4A7E-93A5-D875EE122BB9/f:Board.cs" caret="243" fromTop="17" />
+      <File id="84102336-87CE-4A7E-93A5-D875EE122BB9/f:Board.cs" caret="19" fromTop="12" />
+      <File id="84102336-87CE-4A7E-93A5-D875EE122BB9/f:Board.cs" caret="19" fromTop="17" />
+      <File id="84102336-87CE-4A7E-93A5-D875EE122BB9/f:Board.cs" caret="19" fromTop="32" />
+      <File id="84102336-87CE-4A7E-93A5-D875EE122BB9/f:Board.cs" caret="19" fromTop="20" />
+      <File id="3639F4BB-54EC-48BB-9DB1-A5D2842BB44E/f:GoBangTest.cs" caret="0" fromTop="0" />
+      <File id="3639F4BB-54EC-48BB-9DB1-A5D2842BB44E/f:GoBangTest.cs" caret="698" fromTop="19" />
+      <File id="3639F4BB-54EC-48BB-9DB1-A5D2842BB44E/f:GoBangTest.cs" caret="703" fromTop="19" />
+      <File id="84102336-87CE-4A7E-93A5-D875EE122BB9/f:ExtensionMethod.cs" caret="112" fromTop="5" />
+      <File id="84102336-87CE-4A7E-93A5-D875EE122BB9/f:Board.cs" caret="360" fromTop="20" />
+      <File id="84102336-87CE-4A7E-93A5-D875EE122BB9/f:Board.cs" caret="160" fromTop="9" />
+      <File id="84102336-87CE-4A7E-93A5-D875EE122BB9/f:CharMatrix.cs" caret="928" fromTop="26" />
+      <File id="84102336-87CE-4A7E-93A5-D875EE122BB9/f:CharMatrix.cs" caret="735" fromTop="27" />
+      <File id="84102336-87CE-4A7E-93A5-D875EE122BB9/f:CharMatrix.cs" caret="730" fromTop="26" />
+      <File id="84102336-87CE-4A7E-93A5-D875EE122BB9/f:CharMatrix.cs" caret="566" fromTop="22" />
+      <File id="84102336-87CE-4A7E-93A5-D875EE122BB9/f:Board.cs" caret="246" fromTop="17" />
+      <File id="84102336-87CE-4A7E-93A5-D875EE122BB9/f:Board.cs" caret="184" fromTop="6" />
+      <File id="3639F4BB-54EC-48BB-9DB1-A5D2842BB44E/f:GoBangTest.cs" caret="392" fromTop="10" />
+      <File id="84102336-87CE-4A7E-93A5-D875EE122BB9/f:CharMatrix.cs" caret="289" fromTop="9" />
+      <File id="84102336-87CE-4A7E-93A5-D875EE122BB9/f:ExtensionMethod.cs" caret="565" fromTop="21" />
+      <File id="84102336-87CE-4A7E-93A5-D875EE122BB9/f:ExtensionMethod.cs" caret="560" fromTop="18" />
+      <File id="84102336-87CE-4A7E-93A5-D875EE122BB9/f:CharMatrix.cs" caret="361" fromTop="13" />
+      <File id="84102336-87CE-4A7E-93A5-D875EE122BB9/f:ExtensionMethod.cs" caret="519" fromTop="15" />
+      <File id="3639F4BB-54EC-48BB-9DB1-A5D2842BB44E/f:GoBangTest.cs" caret="240" fromTop="6" />
+      <File id="84102336-87CE-4A7E-93A5-D875EE122BB9/f:CharMatrix.cs" caret="89" fromTop="5" />
+      <File id="84102336-87CE-4A7E-93A5-D875EE122BB9/f:Board.cs" caret="356" fromTop="17" />
+      <File id="84102336-87CE-4A7E-93A5-D875EE122BB9/f:Board.cs" caret="93" fromTop="5" />
+      <File id="84102336-87CE-4A7E-93A5-D875EE122BB9/f:Board.cs" caret="16" fromTop="0" />
+    </RecentEdits>
+  </RecentFiles>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="CSharpCodeCompletionContext">
+      <Item value="_cells" priority="185" />
+      <Item value="List" priority="526" />
+      <Item value="private" priority="216" />
+      <Item value="foreach" priority="154" />
+      <Item value="char" priority="119" />
+      <Item value="new" priority="123" />
+      <Item value="List&lt;List&lt;char&gt;&gt;" priority="139" />
+      <Item value="List&lt;char&gt;" priority="83" />
+      <Item value="o" priority="61" />
+      <Item value="_boardStatus" priority="62" />
+      <Item value="class" priority="59" />
+      <Item value="Matrix`0" priority="61" />
+      <Item value="int" priority="309" />
+      <Item value="_elements" priority="154" />
+      <Item value="for" priority="154" />
+      <Item value="i" priority="185" />
+      <Item value="row" priority="30" />
+      <Item value="column" priority="92" />
+      <Item value="rows" priority="30" />
+      <Item value="public" priority="277" />
+      <Item value="static" priority="91" />
+      <Item value="indexer" priority="30" />
+      <Item value="return" priority="154" />
+      <Item value="MatrixChar" priority="28" />
+      <Item value="IEnumerable" priority="30" />
+      <Item value="this" priority="92" />
+      <Item value="CharMatrix`0" priority="61" />
+      <Item value="Action" priority="30" />
+      <Item value="action" priority="62" />
+      <Item value="self" priority="123" />
+      <Item value="Char`0" priority="30" />
+      <Item value="string" priority="185" />
+      <Item value="_str" priority="30" />
+      <Item value="void" priority="92" />
+      <Item value="times" priority="61" />
+      <Item value="const" priority="154" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List`1">
+      <Item value="ForEach`0" priority="135" />
+      <Item value="Insert`0" priority="26" />
+      <Item value="Add`0" priority="82" />
+      <Item value="GetEnumerator`0" priority="26" />
+      <Item value="Count" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ConsoleApplication1.CharMatrix">
+      <Item value="Indexer" priority="26" />
+      <Item value="ToString`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="Empty" priority="26" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="livetemplates.csharp.usevar">True</setting>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+</Configuration>
