@@ -42,9 +42,6 @@
     <Compile Include="GoBangTest.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="AuthoringTests.txt" />
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\ConsoleApplication1\GoBang.csproj">
       <Project>{84102336-87CE-4A7E-93A5-D875EE122BB9}</Project>
       <Name>GoBang</Name>

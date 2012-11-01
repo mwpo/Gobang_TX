@@ -1,8 +1,4 @@
-﻿using System;
-using System.Text;
-using System.Collections.Generic;
-using System.Linq;
-using ConsoleApplication1;
+﻿using ConsoleApplication1;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace GoBangTest
@@ -11,10 +7,17 @@ namespace GoBangTest
     public class GoBangTest
     {
         [TestMethod]
-        public void PrintEmptyChessBoard()
+        public void should_print_empty_chess_board_given_initial_board()
         {
-            Board chessBoard = new Board(8) ;
-            string expected = "********\n********\n********\n********\n********\n********\n********\n********\n";  
+            var chessBoard = new Board(8, 8);
+            const string expected =  "********\n"+
+                                     "********\n"+
+                                     "********\n"+
+                                     "********\n"+
+                                     "********\n"+
+                                     "********\n"+
+                                     "********\n"+
+                                     "********\n";  
 
             Assert.AreEqual(expected,chessBoard.BoardStatus);
         }

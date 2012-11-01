@@ -1,35 +1,19 @@
-using System.Collections.Generic;
-
 namespace ConsoleApplication1
 {
     public class Board
     {
+        private const char EMPTY = '*';
+
         public string BoardStatus
         {
-            get { return _boardStatus; }
+            get { return _cells.ToString(); }
         }
 
-        private List<List<char>> _cells = new List<List<char>>()
-                                              {
-                                                  new List<char>(){'*','*','*','*','*','*','*','*',},
-                                                  new List<char>(){'*','*','*','*','*','*','*','*',},
-                                                  new List<char>(){'*','*','*','*','*','*','*','*',},
-                                                  new List<char>(){'*','*','*','*','*','*','*','*',},
-                                                  new List<char>(){'*','*','*','*','*','*','*','*',},
-                                                  new List<char>(){'*','*','*','*','*','*','*','*',},
-                                                  new List<char>(){'*','*','*','*','*','*','*','*',},
-                                                  new List<char>(){'*','*','*','*','*','*','*','*',},
-                                              };
+        private readonly CharMatrix _cells;
 
-        private string _boardStatus = string.Empty;
-
-        public Board()
+        public Board(int row, int column)
         {
-            _cells.ForEach(row =>
-                               {
-                                   row.ForEach(cell => _boardStatus += cell);
-                                   _boardStatus += "\n";
-                               });
+            _cells = new CharMatrix(row, column, EMPTY);
         }
     }
 }
