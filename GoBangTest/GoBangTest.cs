@@ -21,5 +21,23 @@ namespace GoBangTest
 
             Assert.AreEqual(expected,chessBoard.BoardStatus);
         }
+
+        [TestMethod]
+        public void should_place_white_chess_on_2_2_cell_given_one_piece()
+        {
+            var chessBoard = new Board(8, 8);
+            const string expected = "********\n" +
+                                    "********\n" +
+                                    "**o*****\n" +
+                                    "********\n" +
+                                    "********\n" +
+                                    "********\n" +
+                                    "********\n" +
+                                    "********\n";
+
+            chessBoard.PlaceChess(2, 2, CELL_STATUS.WHITE);
+
+            Assert.AreEqual(expected, chessBoard.BoardStatus);
+        }
     }
 }

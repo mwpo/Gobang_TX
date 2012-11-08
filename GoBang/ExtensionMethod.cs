@@ -5,9 +5,9 @@ namespace GoBang
 {
     public static class ExtensionMethod
     {
-        public static void ForEach(this CharMatrix self, Action<List<char>> action)
+        public static void ForEach(this Matrix self, Action<List<char>> action)
         {
-            foreach (List<Char> row in self)
+            foreach (List<char> row in self)
             {
                 action(row);
             }

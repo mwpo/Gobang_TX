@@ -3,11 +3,11 @@ using System.Collections.Generic;
 
 namespace GoBang
 {
-    public class CharMatrix : IEnumerable<List<char>>
+    public class Matrix : IEnumerable<List<char>>
     {
         private readonly List<List<char>> _elements = new List<List<char>>();
 
-        public CharMatrix(int row, int column, char initValue)
+        public Matrix(int row, int column, char initValue)
         {
             for (int i = 0; i < row; i++)
             {
